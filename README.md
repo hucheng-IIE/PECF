@@ -14,9 +14,9 @@ We have uploaded part of the core code of the model `models.py aggregators.py`, 
     <h1 style="text-align:center;">Image Gallery</h1>
     <div style="display:flex; justify-content:center; flex-wrap:wrap;">
         <div align=center>
-            <img src="https://github.com/hucheng-IIE/PECF/blob/main/case_study/RGCN.png" alt="Image 1" width="350" height="350">
+            <img src="https://github.com/hucheng-IIE/PECF/blob/main/case_study/RGCN.png" alt="Image 1" width="300" height="350">
             <p style="text-align:center; font-weight:bold;">RGCN</p>
-            <img src="https://github.com/hucheng-IIE/PECF/blob/main/case_study/PECF_wo_CF.png" alt="Image 2" width="350" height="350">
+            <img src="https://github.com/hucheng-IIE/PECF/blob/main/case_study/PECF_wo_CF.png" alt="Image 2" width="300" height="350">
             <p style="text-align:center; font-weight:bold;">Image 2 Title</p>
         </div>
         <div align=center>
