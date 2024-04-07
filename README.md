@@ -16,8 +16,6 @@ We have uploaded part of the core code of the model `models.py aggregators.py`, 
         <div align=center>
             <img src="https://github.com/hucheng-IIE/PECF/blob/main/case_study/RGCN.png" alt="Image 1" width="350" height="350">
             <p style="text-align:center; font-weight:bold;">RGCN</p>
-        </div>
-        <div align=center>
             <img src="https://github.com/hucheng-IIE/PECF/blob/main/case_study/PECF_wo_CF.png" alt="Image 2" width="350" height="350">
             <p style="text-align:center; font-weight:bold;">Image 2 Title</p>
         </div>
