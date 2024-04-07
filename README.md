@@ -19,7 +19,6 @@ We have uploaded part of the core code of the model `models.py aggregators.py`, 
 </head>
 <body>
     <h1 style="text-align:center;">Image Gallery</h1>
-
     <div style="display:flex; justify-content:center; flex-wrap:wrap;">
         <div style="margin:10px;">
             <img src="https://example.com/image1.jpg" alt="Image 1" width="300" height="200">
