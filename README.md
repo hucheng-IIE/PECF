@@ -25,11 +25,11 @@ We have uploaded part of the core code of the model `models.py aggregators.py`, 
             <p style="text-align:center; font-weight:bold;">Image 1 Title</p>
         </div>
         <div style="margin:10px;">
-            <img src="[https://example.com/image2.jpg](https://github.com/hucheng-IIE/PECF/blob/main/case_study/PECF_wo_CF.png)" alt="Image 2" width="300" height="200">
+            <img src="https://github.com/hucheng-IIE/PECF/blob/main/case_study/PECF_wo_CF.png" alt="Image 2" width="300" height="200">
             <p style="text-align:center; font-weight:bold;">Image 2 Title</p>
         </div>
         <div style="margin:10px;">
-            <img src="[https://example.com/image3.jpg](https://github.com/hucheng-IIE/PECF/blob/main/case_study/PECF.png)" alt="Image 3" width="300" height="200">
+            <img src="https://github.com/hucheng-IIE/PECF/blob/main/case_study/PECF.png" alt="Image 3" width="300" height="200">
             <p style="text-align:center; font-weight:bold;">Image 3 Title</p>
         </div>
     </div>
