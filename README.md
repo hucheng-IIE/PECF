@@ -5,21 +5,17 @@ These are some supplementary experiments and data charts for the paper "Counterf
 We have uploaded part of the core code of the model `models.py aggregators.py`, and the remaining data and code will be fully uploaded later.
 
 ## 2.Case Study
-<div style="text-align:center;">
-<img src="https://github.com/hucheng-IIE/PECF/blob/main/case_study/RGCN.png" width="350" height="350"/> <img src="https://github.com/hucheng-IIE/PECF/blob/main/case_study/PECF_wo_CF.png" width="350" height="350"> <img src="https://github.com/hucheng-IIE/PECF/blob/main/case_study/PECF.png" width="350" height="350">
-<p style="text-align:center; font-weight:bold;">RGCN Architecture</p>
-</div>
 
 <body>
     <h1 style="text-align:center;">Image Gallery</h1>
     <div style="display:flex; justify-content:center; flex-wrap:wrap;">
         <div align=center>
             <img src="https://github.com/hucheng-IIE/PECF/blob/main/case_study/RGCN.png" alt="Image 1" width="300" height="350"> <img src="https://github.com/hucheng-IIE/PECF/blob/main/case_study/PECF_wo_CF.png" alt="Image 2" width="300" height="350">
-            <p >RGCN Image 2 Title</p>
+            <p >RGCN    PECF w/o CF</p>
         </div>
         <div align=center>
             <img src="https://github.com/hucheng-IIE/PECF/blob/main/case_study/PECF.png" alt="Image 3" width="350" height="350">
-            <p style="text-align:center; font-weight:bold;">Image 3 Title</p>
+            <p style="text-align:center; font-weight:bold;">PECF</p>
         </div>
     </div>
 </body>
