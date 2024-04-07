@@ -11,7 +11,7 @@ We observe that the representations learned by tRGCN are more scattered and the 
 <body>
     <div style="display:flex; justify-content:center; flex-wrap:wrap;">
         <div align=center>
-            <img src="https://github.com/hucheng-IIE/PECF/blob/main/case_study/RGCN.png" alt="Image 1" width="300" height="350"> <img src="https://github.com/hucheng-IIE/PECF/blob/main/case_study/PECF_wo_CF.png" alt="Image 2" width="300" height="350">
+            <img src="https://github.com/hucheng-IIE/PECF/blob/main/case_study/tRGCN.png" alt="Image 1" width="300" height="350"> <img src="https://github.com/hucheng-IIE/PECF/blob/main/case_study/PECF_CF.png" alt="Image 2" width="300" height="350">
             <p >left: RGCN  right: PECF w/o CF</p>
         </div>
         <div align=center>
