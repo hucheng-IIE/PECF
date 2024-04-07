@@ -1,1 +1,1 @@
-# PECF
+These are some supplementary experiments and data charts for the paper "Counterfactual-Augmented Representation Learning for Event Prediction". The paper was submitted to KDD 2024 with the submission number **390**. The paper is currently in the **rebuttal** stage.
