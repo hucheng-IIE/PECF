@@ -10,19 +10,12 @@ We have uploaded part of the core code of the model `models.py aggregators.py`, 
 <p style="text-align:center; font-weight:bold;">RGCN Architecture</p>
 </div>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Image Gallery</title>
-</head>
 <body>
     <h1 style="text-align:center;">Image Gallery</h1>
     <div style="display:flex; justify-content:center; flex-wrap:wrap;">
         <div style="margin:10px;">
             <img src="https://github.com/hucheng-IIE/PECF/blob/main/case_study/RGCN.png" alt="Image 1" width="350" height="350">
-            <p style="text-align:center; font-weight:bold;">Image 1 Title</p>
+            <p style="text-align:center; font-weight:bold;">RGCN</p>
         </div>
         <div style="margin:10px;">
             <img src="https://github.com/hucheng-IIE/PECF/blob/main/case_study/PECF_wo_CF.png" alt="Image 2" width="350" height="350">
@@ -34,4 +27,3 @@ We have uploaded part of the core code of the model `models.py aggregators.py`, 
         </div>
     </div>
 </body>
-</html>
