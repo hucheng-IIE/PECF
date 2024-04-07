@@ -5,7 +5,7 @@ These are some supplementary experiments and data charts for the paper "Counterf
 We have uploaded part of the core code of the model `models.py aggregators.py`, and the remaining data and code will be fully uploaded later.
 
 ## 2.Case Study
-The figure below shows the visualization of final embeddings learned in each time window using the t-SNE method. The embeddings are obtained from three different models: PECF, PECF without  $\mathcal{L}_{CF}$ and $\mathcal{L}_{dis}$ (w/o CF) , and tRGCN on the Egypt dataset. The points are colored red and blue based on their labels.$`\sqrt{3x-1}+(1+x)^2`$
+The figure below shows the visualization of final embeddings learned in each time window using the t-SNE method. The embeddings are obtained from three different models: PECF, PECF without  $\mathcal{L}_{CF}$ and $\mathcal{L}_{dis}$ (w/o CF) , and tRGCN on the Egypt dataset. The points are colored red and blue based on their labels.$`\mathcal{L}_{CF}`$
 
 We observe that the representations learned by tRGCN are more scattered and the categories are somewhat mixed. PECF w/o CF performs better than tRGCN, indicating that PECF effectively captures graph structure and temporal information. The best representations are learned by PECF, showing that counterfactual results enable the model to deeply understand connection between events and make more accurate event predictions, **demonstrating the validity of identified counterfactual treatments.**
 <body>
