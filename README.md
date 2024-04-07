@@ -15,7 +15,7 @@ We have uploaded part of the core code of the model `models.py aggregators.py`, 
     <div style="display:flex; justify-content:center; flex-wrap:wrap;">
         <div align=center>
             <img src="https://github.com/hucheng-IIE/PECF/blob/main/case_study/RGCN.png" alt="Image 1" width="300" height="350"> <img src="https://github.com/hucheng-IIE/PECF/blob/main/case_study/PECF_wo_CF.png" alt="Image 2" width="300" height="350">
-            <p >RGCN</p><p>Image 2 Title</p>
+            <p >RGCN Image 2 Title</p>
         </div>
         <div align=center>
             <img src="https://github.com/hucheng-IIE/PECF/blob/main/case_study/PECF.png" alt="Image 3" width="350" height="350">
