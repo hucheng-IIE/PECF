@@ -1,8 +1,8 @@
-These are some supplementary experiments and data charts for the paper "Counterfactual-Augmented Representation Learning for Event Prediction". The paper was submitted to KDD 2024 with the submission number **390**. The paper is currently in the **rebuttal** stage.
+These are some supplementary experiments and charts for the paper "Counterfactual-Augmented Representation Learning for Event Prediction". The paper was submitted to KDD 2024 with the submission number **390**. The paper is currently in the **rebuttal** stage.
 
 ## 1. Code and datasets
 
-We have uploaded part of the core code of the model `models.py aggregators.py`, and the remaining data and code will be fully uploaded later.
+We have uploaded part of the core code of the model `models.py aggregators.py`, and the remaining data and code will be fully uploaded after the anonymity period.
 
 ## 2.Case Study
 The figure below shows the visualization of final embeddings learned in each time window using the t-SNE method. The embeddings are obtained from three different models: PECF, PECF without  $`\mathcal{L}_{CF}`$ and $`\mathcal{L}_{dis}`$ (w/o CF) , and tRGCN on the Egypt dataset. The points are colored red and blue based on their labels.
