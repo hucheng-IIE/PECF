@@ -27,6 +27,7 @@ We observe that the representations learned by tRGCN are more scattered and the 
      <div style="display:flex; justify-content:center; flex-wrap:wrap;">
         <div align=center>
             <img src="https://github.com/hucheng-IIE/PECF/blob/main/Robustness%20Tests/EG_test.png" alt="Image 1" width="300" height="250"> <img src="https://github.com/hucheng-IIE/PECF/blob/main/Robustness%20Tests/IS_test.png" alt="Image 2" width="300" height="250">
+            <p style="text-align:center; font-size:20px; font-weight:bold;">Israel</p>
         </div>
     </div>
 </body>
