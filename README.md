@@ -15,3 +15,7 @@ We observe that the representations learned by tRGCN are more scattered and the 
         </div>
     </div>
 </body>
+
+## 3.Robustness Tests
+
+## 4.Generalization Tests
