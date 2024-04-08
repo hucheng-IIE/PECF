@@ -16,14 +16,11 @@ We observe that the representations learned by tRGCN are more scattered and the 
     </div>
 </body>
 
-
-
-https://github.com/hucheng-IIE/PECF/blob/main/Robustness%20Tests/EG_test.png
 ## 3.Robustness Tests
 <body>
     <div style="display:flex; justify-content:center; flex-wrap:wrap;">
         <div align=center>
-            <img src="https://github.com/hucheng-IIE/PECF/blob/main/Robustness%20Tests/EG_train.png" alt="Image 1" width="300" height="350"> <img src="https://github.com/hucheng-IIE/PECF/blob/main/Robustness%20Tests/EG_test.png" alt="Image 2" width="300" height="350">
+            <img src="https://github.com/hucheng-IIE/PECF/blob/main/Robustness%20Tests/EG_train.png" alt="Image 1" width="300" height="2800"> <img src="https://github.com/hucheng-IIE/PECF/blob/main/Robustness%20Tests/EG_test.png" alt="Image 2" width="300" height="280">
         </div>
     </div>
 </body>
