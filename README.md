@@ -41,6 +41,7 @@ We set Poisson noise levels to 1, 5, 10, 15, and 20, using the Balanced Accuracy
 
 ## 4.Generalization Tests
 We conducted generalization test on the Egypt dataset using three target event types: protest, appeal, and yield, and evaluated the performance using the Balanced Accuracy (BACC) metric. The baseline methods included Glean, which performed best on event prediction tasks in the Egypt dataset, and a state-of-the-art (SOTA) method based on causal inference for event prediction.
+
 The experimental results, depicted in the following figure, show that PECF outperformed the other methods, demonstrating that leveraging counterfactual outcomes can capture the intrinsic relationships between events and enhance model generalization.
 <body>
     <div style="display:flex; justify-content:center; flex-wrap:wrap;">
