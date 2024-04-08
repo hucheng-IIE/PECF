@@ -40,3 +40,11 @@ We set Poisson noise levels to 1, 5, 10, 15, and 20, using the Balanced Accuracy
 </body>
 
 ## 4.Generalization Tests
+<body>
+    <div style="display:flex; justify-content:center; flex-wrap:wrap;">
+        <div align=center>
+            <img src="https://github.com/hucheng-IIE/PECF/blob/main/EG_GT.png" alt="Image 1" width="300" height="350"> 
+        </div>
+    </div>
+</body>
+
