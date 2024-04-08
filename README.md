@@ -17,6 +17,13 @@ We observe that the representations learned by tRGCN are more scattered and the 
 </body>
 
 ## 3.Robustness Tests
+We conducted robustness tests on the training and testing sets of the **Egypt and Israel datasets,** using Glean and Cape as baseline methods. Glean performed the best among baseline methods in event prediction tasks on these datasets, while Cape represents the current state-of-the-art method for causal inference-based event prediction.
+
+ - **Robustness to Training Noise**: We consider that noise may exist intraining data due to human or machine errors. To simulate this, we introduce Poisson noise into the training set while keeping the validation and test sets unchanged. We then observe whether the model continues to perform well on the test set despite the added noise in training.
+ - **Robustness to Test Noise**: We introduce Poisson noise into the test and validation sets while keeping the training set unchanged. This allows us to observe how the model's performance changes in response to the noise added to the test and validation data.
+
+We set Poisson noise levels to 1, 5, 10, 15, and 20, using the Balanced Accuracy (BACC) metric to assess model performance. The experimental results are shown in the following figure. It can be observed that PECF maintains good performance even in the presence of data noise. **This robustness is attributed to PECF's ability to leverage counterfactual outcomes as supplementary information, enabling a deeper understanding of relationships between events and facilitating robust predictions by the model.**
+
 <body>
     <div style="display:flex; justify-content:center; flex-wrap:wrap;">
         <div align=center>
