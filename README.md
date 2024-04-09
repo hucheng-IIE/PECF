@@ -7,7 +7,7 @@ We have uploaded part of the core code of the model `models.py aggregators.py`, 
 ## 2.Case Study
 The figure below shows the visualization of final embeddings learned in each time window using the t-SNE method in the Egypt dataset. The embeddings are obtained from three different models: PECF, PECF without  $`\mathcal{L}_{CF}`$ and $`\mathcal{L}_{dis}`$ (w/o CF) , and tRGCN on the Egypt dataset. The points are colored red and blue based on their labels.
 
-We observe that the representations learned by tRGCN are more scattered and the categories are somewhat mixed. PECF w/o CF performs better than tRGCN, indicating that PECF w/o CF effectively captures graph structure and temporal information. The best representations are learned by PECF, showing that counterfactual outcomes enable the model to deeply understand connection between events and make more accurate event predictions, **demonstrating the validity of identified counterfactual treatments.**
+We observe that the representations learned by tRGCN are more scattered and the categories are somewhat mixed. PECF w/o CF performs better than tRGCN, indicating that PECF w/o CF effectively captures graph structure and temporal information. The best representations are learned by PECF, showing that counterfactual outcomes enable the model to learn representative embeddings and predict events more accurately, **demonstrating the validity of identified counterfactual treatments**.
 <body>
     <div style="display:flex; justify-content:center; flex-wrap:wrap;">
         <div align=center>
@@ -43,7 +43,8 @@ We set Poisson noise levels to 1, 5, 10, 15, and 20, using the Balanced Accuracy
 ## 4.Generalization Tests
 We conducted generalization test on the Egypt dataset using three target event types: **protest, appeal, and yield**, and evaluated the performance using the Balanced Accuracy (BACC) metric. The baseline methods included Glean, which performed best on event prediction tasks in the Egypt dataset, and a state-of-the-art (SOTA) method based on causal inference for event prediction.
 
-The experimental results, depicted in the following figure, show that PECF outperformed the other methods, **demonstrating that leveraging counterfactual outcomes can capture the intrinsic relationships between events and enhance model generalization.**
+The experimental results, depicted in the following figure, show that PECF outperformed the other methods, **demonstrating that leveraging counterfactual outcomes can be used to capture the general patterns between data and improve the generalization of the model..**
+
 <body>
     <div style="display:flex; justify-content:center; flex-wrap:wrap;">
         <div align=center>
