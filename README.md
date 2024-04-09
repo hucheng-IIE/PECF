@@ -5,13 +5,14 @@ These are some supplementary experiments and charts for the paper "Counterfactua
 We have uploaded part of the core code of the model `models.py aggregators.py`, and the remaining data and code will be fully uploaded after the anonymity period.
 
 ## 2.Case Study
-The figure below shows the visualization of final embeddings learned in each time window using the t-SNE method. The embeddings are obtained from three different models: PECF, PECF without  $`\mathcal{L}_{CF}`$ and $`\mathcal{L}_{dis}`$ (w/o CF) , and tRGCN on the Egypt dataset. The points are colored red and blue based on their labels.
+The figure below shows the visualization of final embeddings learned in each time window using the t-SNE method in the Egypt dataset. The embeddings are obtained from three different models: PECF, PECF without  $`\mathcal{L}_{CF}`$ and $`\mathcal{L}_{dis}`$ (w/o CF) , and tRGCN on the Egypt dataset. The points are colored red and blue based on their labels.
 
 We observe that the representations learned by tRGCN are more scattered and the categories are somewhat mixed. PECF w/o CF performs better than tRGCN, indicating that PECF w/o CF effectively captures graph structure and temporal information. The best representations are learned by PECF, showing that counterfactual results enable the model to deeply understand connection between events and make more accurate event predictions, **demonstrating the validity of identified counterfactual treatments.**
 <body>
     <div style="display:flex; justify-content:center; flex-wrap:wrap;">
         <div align=center>
             <img src="https://github.com/hucheng-IIE/PECF/blob/main/case_study/tRGCN.png" alt="Image 1" width="300" height="350"> <img src="https://github.com/hucheng-IIE/PECF/blob/main/case_study/PECF_CF.png" alt="Image 2" width="300" height="350"> <img src="https://github.com/hucheng-IIE/PECF/blob/main/case_study/PECF.png" alt="Image 3" width="350" height="350">
+            <p style="text-align:center; font-size:20px; font-weight:bold;">Egypt</p>
         </div>
     </div>
 </body>
@@ -47,6 +48,7 @@ The experimental results, depicted in the following figure, show that PECF outpe
     <div style="display:flex; justify-content:center; flex-wrap:wrap;">
         <div align=center>
             <img src="https://github.com/hucheng-IIE/PECF/blob/main/EG_GT.png" alt="Image 1" width="300" height="250"> 
+            <p style="text-align:center; font-size:20px; font-weight:bold;">Egypt</p>
         </div>
     </div>
 </body>
