@@ -41,6 +41,16 @@ We set Poisson noise levels to 1, 5, 10, 15, and 20, using the Balanced Accuracy
 </body>
 
 ## 4.Generalization Tests
+We reduced the training set size on the Egypt dataset to observe changes in model performance. We set the training set size to 20%, 40%, 60%, and 80% of the dataset, and measured the performance of the PECF model using the evaluation metric BACC. The baseline methods included Glean, which performed best on event prediction tasks in the Egypt dataset, and a state-of-the-art (SOTA) method based on causal inference for event prediction. The experimental results are shown in the figure below. We can observe that as the training set size decreases, PECF maintains relatively good performance, **demonstrating that PECF effectively handles data missingness using counterfactual outcomes**.
+<body>
+    <div style="display:flex; justify-content:center; flex-wrap:wrap;">
+        <div align=center>
+            <img src="https://github.com/hucheng-IIE/PECF/blob/main/EG_GT.png" alt="Image 1" width="300" height="250"> 
+            <p style="text-align:center; font-size:20px; font-weight:bold;">Egypt</p>
+        </div>
+    </div>
+</body>
+
 We conducted a generalization test on the Egypt dataset using three target event types: **protest, appeal, and yield**, and evaluated the performance using the Balanced Accuracy (BACC) metric. The baseline methods included Glean, which performed best on event prediction tasks in the Egypt dataset, and a state-of-the-art (SOTA) method based on causal inference for event prediction.
 
 The experimental results, depicted in the following figure, show that PECF outperformed the other methods, **demonstrating that leveraging counterfactual outcomes can be used to capture the general patterns between data and improve the generalization of the model.**
