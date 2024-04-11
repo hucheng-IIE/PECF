@@ -55,7 +55,7 @@ The experimental results are shown in the figure below. We can observe that as t
     </div>
 </body>
 
-### 4.2 Different event types
+### 4.2 Different target event types
 
 We conducted a generalization test on the Egypt dataset using three target event types: **protest, appeal, and yield**, and evaluated the performance using the Balanced Accuracy (BACC) metric. The baseline methods included Glean, which performed best on event prediction tasks in the Egypt dataset, and a state-of-the-art (SOTA) method based on causal inference for event prediction.
 
