@@ -45,7 +45,7 @@ We reduced the training set size on the Egypt dataset to observe changes in mode
 <body>
     <div style="display:flex; justify-content:center; flex-wrap:wrap;">
         <div align=center>
-            <img src="https://github.com/hucheng-IIE/PECF/blob/main/EG_GT.png" alt="Image 1" width="300" height="250"> 
+            <img src="https://github.com/hucheng-IIE/PECF/blob/main/Training_set.png" alt="Image 1" width="300" height="250"> 
             <p style="text-align:center; font-size:20px; font-weight:bold;">Egypt</p>
         </div>
     </div>
