@@ -42,7 +42,6 @@ We set Poisson noise levels to 1, 5, 10, 15, and 20, using the Balanced Accuracy
 
 ## 4.Generalization Tests
 ### 4.1 Different training set sizes
-###4.1 Different training set sizes
 
 We reduced the training set size on the Egypt dataset to observe changes in model performance. We set the training set size to 20%, 40%, 60%, and 80% of the dataset, and measured the performance of the PECF model using the evaluation metric BACC. The baselines included Glean, the best baseline method on event prediction in the Egypt dataset, and a state-of-the-art (SOTA) causal inference method for event prediction.
 
@@ -56,7 +55,7 @@ The experimental results are shown in the figure below. We can observe that as t
     </div>
 </body>
 
-###4.2 Different event types
+### 4.2 Different event types
 
 We conducted a generalization test on the Egypt dataset using three target event types: **protest, appeal, and yield**, and evaluated the performance using the Balanced Accuracy (BACC) metric. The baseline methods included Glean, which performed best on event prediction tasks in the Egypt dataset, and a state-of-the-art (SOTA) method based on causal inference for event prediction.
 
