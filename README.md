@@ -3,6 +3,10 @@ This is the source code for paper ''Counterfactual-Augmented Representation Lear
 
 ## Get Started
 
+Dataset
+
+https://github.com/yecchen/SeCoGD?tab=readme-ov-file
+
 Requirements and Installation
 
 * python == 3.8.16
