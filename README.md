@@ -5,7 +5,7 @@ This is the source code for paper ''Counterfactual-Augmented Representation Lear
 
 Dataset
 
-https://github.com/yecchen/SeCoGD?tab=readme-ov-file
+https://drive.google.com/file/d/1EGem4zPZDNfBxTEWBGI7bFD0A9bBisvJ/view?usp=drive_link
 
 Requirements and Installation
 
