@@ -1,4 +1,5 @@
-# Counterfactual-Augmented Representation Learning based Event Prediction.
+# PECF
+This is the source code for paper ''Counterfactual-Augmented Representation Learning based Event Prediction'' appeared in the proceedings of ICME 2025 (Main Track).
 
 ## Get Started
 
