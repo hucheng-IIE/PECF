@@ -22,7 +22,7 @@ np.random.seed(0)
 
 if __name__ == "__main__":
   ### Argument and global variables
-  parser = argparse.ArgumentParser('SDM 2025')
+  parser = argparse.ArgumentParser('ICME 2025')
   parser.add_argument('--dp', '--data path', type=str, help='Dataset path', default='/data')
   parser.add_argument('--c', '--country', type=str, help='country name', default='IR')
 
